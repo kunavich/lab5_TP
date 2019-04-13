@@ -2,6 +2,7 @@
 #include "SQL_functions.h"
 #include "sqlite3.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 
 sqlite3 *db = NULL;
