@@ -266,7 +266,7 @@ void printRegisterMenu() {
 
 char printLoginMenu() {
 	cls;
-	printf(headerINA);
+	printf("%s",headerINA);
 	while (1) {
 		printf("   Enter login: ");
 		getstring(login);
