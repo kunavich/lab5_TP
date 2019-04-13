@@ -196,7 +196,7 @@ void printClientMenu() {
 				printf("Transaction error. Wrong data.");
 			else
 				printf("\nSucces!");
-			free(withdrawCash);
+			free(withdrawMethood);// bilo free(withdrawCash); stalo free(withdrawMethood);
 		}break;
 		case 3: {
 			char* addMethood = (char*)malloc(80);
